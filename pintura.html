@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faça seu deseho</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="pagina-carta">
+
+        <h1>Faça seu desenho🎨</h1>
+
+      
+
+        <div class="cores-pintura">
+            <button style="background:#ff8fab" onclick="mudarCor('#ff8fab')"></button>
+            <button style="background:#ff5d8f" onclick="mudarCor('#ff5d8f')"></button>
+            <button style="background:#ffd166" onclick="mudarCor('#ffd166')"></button>
+            <button style="background:#87ceeb" onclick="mudarCor('#87ceeb')"></button>
+            <button style="background:#90be6d" onclick="mudarCor('#90be6d')"></button>
+            <button style="background:#5a2a3a" onclick="mudarCor('#5a2a3a')"></button>
+        </div>
+
+        <canvas id="telaPintura" width="600" height="400"></canvas>
+
+        <br>
+
+        <button class="botao" onclick="limparPintura()">Limpar Pintura</button>
+
+        <a href="index.html" class="botao-link">
+            Voltar ao Início
+        </a>
+
+    </main>
+
+    <script src="js/pintura.js"></script>
+
+</body>
+</html>
